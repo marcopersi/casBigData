@@ -4,11 +4,9 @@
 
 ./online/*.csv
 ./data/*.csv
-ProduktMitLieferantenProduktNr.csv
-MengeneinheitFactor.csv
+masterdata/*.csv
 data/*
-online/*
-onlineDaten.zip
+online/*.csv
 
 # Office Temp Files
 ~$*
