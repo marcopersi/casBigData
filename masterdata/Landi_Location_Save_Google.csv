@@ -1,0 +1,302 @@
+"ID";"Name";"Strasse";"PLZ";"Ort";"Adresse";"coordinate";"latitude";"longitude"
+0;"Landi La Côte SA";"Chemin d'Etraz 1";1027;"Lonay";"Chemin d'Etraz 1, Lonay, Switzerland";"46.5266272 6.5275636";46.5266272;6.5275636
+1;"LANDI Moudon-Bercher-Mézières";"Place de la Gare 10";1038;"Bercher";"Place de la Gare 10, Bercher, Switzerland";"46.69173019999999 6.7030598";46.69173019999999;6.7030598
+2;"LANDI Assens";"Rte. d’Yverdon 4";1042;"Assens";"Rte. d’Yverdon 4, Assens, Switzerland";"46.6141116 6.6213688";46.6141116;6.6213688
+3;"LANDI Puidoux";"Route du Verney 2";1070;"Puidoux-Gare";"Route du Verney 2, Puidoux-Gare, Switzerland";"46.4910546 6.768967200000001";46.4910546;6.768967200000001
+4;"Landi Moudon-Bercher-Mézières";"Route du Village 70";1083;"Mézières VD";"Route du Village 70, Mézières VD, Switzerland";"46.6004807 6.772043000000001";46.6004807;6.772043000000001
+5;"Landi La Côte SA";"Ch. du Curbit 1";1136;"Bussy-Chardonney";"Ch. du Curbit 1, Bussy-Chardonney, Switzerland";"46.5255742 6.4432046";46.5255742;6.4432046
+6;"Landi La Côte SA";"Av. de la Gare 1";1166;"Perroy";"Av. de la Gare 1, Perroy, Switzerland";"46.4612281 6.3395569";46.4612281;6.3395569
+7;"CERCLE DES AGRICULTEURS";"Chemin des Cornaches 1";1233;"Bernex";"Chemin des Cornaches 1, Bernex, Switzerland";"46.16093009999999 6.0669432";46.16093009999999;6.0669432
+8;"CERCLE DES AGRICULTEURS";"Rue des Sablières 15";1242;"Satigny";"Rue des Sablières 15, Satigny, Switzerland";"46.219962 6.0605598";46.219962;6.0605598
+9;"CERCLE DES AGRICULTEURS";"Route de Compois 14";1252;"Meinier";"Route de Compois 14, Meinier, Switzerland";"46.2462838 6.2186159";46.2462838;6.2186159
+10;"Cercle des Agriculteurs Veyrier";"Chemin des Marais 52";1255;"Veyrier";"Chemin des Marais 52, Veyrier, Switzerland";"46.1631985 6.1665155";46.1631985;6.1665155
+11;"LANDI La Côte SA";"Route de Crassier 27";1262;"Eysins";"Route de Crassier 27, Eysins, Switzerland";"46.3846293 6.2128457";46.3846293;6.2128457
+12;"LANDI Nord vaudois-Venoge SA";"Route de Dizy 1";1304;"Cossonay-Ville";"Route de Dizy 1, Cossonay-Ville, Switzerland";"46.6196334 6.506737";46.6196334;6.506737
+13;"LANDI Nord vaudois-Venoge SA";"Chemin de Longeraie 1 / Case postale 120";1350;"Orbe";"Chemin de Longeraie 1 / Case postale 120, Orbe, Switzerland";"46.7196604 6.541421499999999";46.7196604;6.541421499999999
+14;"LANDI Nord vaudois-Venoge SA";"Avenue des Sports 48";1400;"Yverdon-les-Bains";"Avenue des Sports 48, Yverdon-les-Bains, Switzerland";"46.779355 6.6536228";46.779355;6.6536228
+15;"LANDI Centre Broye";"Pl. de la Gare 7";1470;"Estavayer-le-Lac";"Pl. de la Gare 7, Estavayer-le-Lac, Switzerland";"46.8438753 6.842821";46.8438753;6.842821
+16;"LANDI Moudon-Bercher-Mézières";"Rte de Bronjon 2; cp 257";1510;"Moudon";"Rte de Bronjon 2; cp 257, Moudon, Switzerland";"46.66847620000001 6.8040385";46.66847620000001;6.8040385
+17;"LANDI Granges - Combremont";"Rue du Canard 12";1523;"Granges-Marnand";"Rue du Canard 12, Granges-Marnand, Switzerland";"46.7578361 6.8930175";46.7578361;6.8930175
+18;"LANDI Centre Broye";"Charrière d'Estavayer 21";1530;"Payerne";"Charrière d'Estavayer 21, Payerne, Switzerland";"46.82770619999999 6.9295263";46.82770619999999;6.9295263
+19;"LANDI Broye-Vully SA";"Au Milavy";1580;"Avenches";"Au Milavy, Avenches, Switzerland";"46.8751528 7.031391999999999";46.8751528;7.031391999999999
+20;"Société coopérative agricole de la région d'Oron";"Route de Lausanne 39";1610;"Oron-la-Ville";"Route de Lausanne 39, Oron-la-Ville, Switzerland";"46.5705964 6.8184128";46.5705964;6.8184128
+21;"LANDI Moléson SA";"Rue de Montreux 140";1618;"Châtel-St-Denis";"Rue de Montreux 140, Châtel-St-Denis, Switzerland";"46.5185148 6.9055975";46.5185148;6.9055975
+22;"LANDI Moléson SA";"Route de Riaz 87";1630;"Bulle";"Route de Riaz 87, Bulle, Switzerland";"46.62767669999999 7.0591294";46.62767669999999;7.0591294
+23;"LANDI Moléson SA";"Rte de Saanen 2";1660;"Château-d'Oex";"Rte de Saanen 2, Château-d'Oex, Switzerland";"46.4711225 7.1279701";46.4711225;7.1279701
+24;"LANDI Vauderens";"Rte d'Ursy 10";1675;"Vauderens";"Rte d'Ursy 10, Vauderens, Switzerland";"46.6232355 6.8510427";46.6232355;6.8510427
+25;"LANDI de Romont Société coopérative";"Route de Billens 18";1680;"Romont";"Route de Billens 18, Romont, Switzerland";"46.6918423 6.909942";46.6918423;6.909942
+26;"LANDI Sense-Düdingen";"Dorfschaftsstrasse 2";1712;"Tafers";"Dorfschaftsstrasse 2, Tafers, Switzerland";"46.8227418 7.209101";46.8227418;7.209101
+27;"LANDI Sense-Düdingen";"Hauptstrasse 47";1714;"Heitenried";"Hauptstrasse 47, Heitenried, Switzerland";"46.8259967 7.301654399999999";46.8259967;7.301654399999999
+28;"LANDI Sense-Oberland";"Obere Matte 20";1716;"Plaffeien";"Obere Matte 20, Plaffeien, Switzerland";"46.73931200000001 7.2908179";46.73931200000001;7.2908179
+29;"LANDI Sarine SA";"Route de Chésalles 3";1723;"Marly";"Route de Chésalles 3, Marly, Switzerland";"46.7720724 7.1603897";46.7720724;7.1603897
+30;"LANDI Sarine SA";"Route du Barrage 11";1733;"Treyvaux";"Route du Barrage 11, Treyvaux, Switzerland";"46.7265138 7.1355133";46.7265138;7.1355133
+31;"LANDI Sense-Oberland";"Oberlandstrasse 1";1734;"Tentlingen";"Oberlandstrasse 1, Tentlingen, Switzerland";"46.7699772 7.19828";46.7699772;7.19828
+32;"LANDI Chénens Société Coopérative";"Rue de la Gare 81";1744;"Chénens";"Rue de la Gare 81, Chénens, Switzerland";"46.74876159999999 7.0007362";46.74876159999999;7.0007362
+33;"LANDI Sarine SA";"Route du P.A.A. 25";1772;"Grolley";"Route du P.A.A. 25, Grolley, Switzerland";"46.8308075 7.0576982";46.8308075;7.0576982
+34;"LANDI Moulin Courtepin Société coopérative";"Route de Morat 15B";1784;"Courtepin";"Route de Morat 15B, Courtepin, Switzerland";"46.8704865 7.122487700000001";46.8704865;7.122487700000001
+35;"LANDI Aigle";"Ch. de la Biole 2";1860;"Aigle";"Ch. de la Biole 2, Aigle, Switzerland";"46.3102426 6.9450182";46.3102426;6.9450182
+36;"LANDI Saxon";"Route du Léman 12";1907;"Saxon";"Route du Léman 12, Saxon, Switzerland";"46.1465885 7.168318600000001";46.1465885;7.168318600000001
+37;"Société coopérative d'agriculture";"Route de la Gare 8";1926;"Fully";"Route de la Gare 8, Fully, Switzerland";"46.1376038 7.1189746";46.1376038;7.1189746
+38;"LANDI Région Neuchâtel SA";"Chemin des Maladières 14";2022;"Bevaix";"Chemin des Maladières 14, Bevaix, Switzerland";"46.9218181 6.8078184";46.9218181;6.8078184
+39;"LANDI Val-de-Ruz Société coopérative";"Passage des Cèpes 1";2053;"Cernier";"Passage des Cèpes 1, Cernier, Switzerland";"47.0601799 6.910808599999999";47.0601799;6.910808599999999
+40;"LANDI Région Neuchâtel SA";"Rue du Moulin 10";2087;"Cornaux";"Rue du Moulin 10, Cornaux, Switzerland";"47.0382974 7.022773099999999";47.0382974;7.022773099999999
+41;"LANDI Région Neuchâtel SA";"Rue de la Gare 14";2112;"Môtiers";"Rue de la Gare 14, Môtiers, Switzerland";"46.9114087 6.6092739";46.9114087;6.6092739
+42;"LANDI Région Neuchâtel SA";"Crêt-du-Locle 28";2322;"Le Crêt-du-Locle";"Crêt-du-Locle 28, Le Crêt-du-Locle, Switzerland";"47.0762018 6.7807035";47.0762018;6.7807035
+43;"LANDI ArcJura SA";"Chemin des Labours 12";2350;"Saignelégier";"Chemin des Labours 12, Saignelégier, Switzerland";"47.2539648 7.0046417";47.2539648;7.0046417
+44;"LANDI RESO";"Neckarsulmstrasse 50";2540;"Grenchen";"Neckarsulmstrasse 50, Grenchen, Switzerland";"47.18718579999999 7.4078945";47.18718579999999;7.4078945
+45;"LANDI Seeland AG";"Keltenstrasse 47";2564;"Bellmund";"Keltenstrasse 47, Bellmund, Switzerland";"47.1099986 7.224112099999998";47.1099986;7.224112099999998
+46;"LANDI ArcJura SA";"Grand-Rue 102";2608;"Courtelary";"Grand-Rue 102, Courtelary, Switzerland";"47.1815674 7.083570399999999";47.1815674;7.083570399999999
+47;"LANDI Vallée de Tavannes";"Route Principale 1";2733;"Pontenet";"Route Principale 1, Pontenet, Switzerland";"47.23814360000001 7.249712799999999";47.23814360000001;7.249712799999999
+48;"LANDI ArcJura SA";"Dos les Terras 3";2744;"Belprahon";"Dos les Terras 3, Belprahon, Switzerland";"47.28417830000001 7.4048428";47.28417830000001;7.4048428
+49;"LANDI ArcJura SA";"Route de Moutier 111";2800;"Delémont";"Route de Moutier 111, Delémont, Switzerland";"47.36310899999999 7.361330199999998";47.36310899999999;7.361330199999998
+50;"AGRO Centre et Jardin-Service";"Rue Vieux-Moulin 1";2852;"Courtételle";"Rue Vieux-Moulin 1, Courtételle, Switzerland";"47.3423974 7.3167424";47.3423974;7.3167424
+51;"Coopérative agricole Landi Clos-du-Doubs";"Route des Rangiers 56";2882;"St-Ursanne";"Route des Rangiers 56, St-Ursanne, Switzerland";"47.3664541 7.1595822";47.3664541;7.1595822
+52;"LANDI ArcJura SA";"Pré-Domont 2";2942;"Alle";"Pré-Domont 2, Alle, Switzerland";"47.420641 7.1120766";47.420641;7.1120766
+53;"LANDI Wohlensee";"Hauptstrasse 19";3033;"Wohlen b. Bern";"Hauptstrasse 19, Wohlen b. Bern, Switzerland";"46.9713856 7.355542";46.9713856;7.355542
+54;"LANDI Wohlensee";"Säriswilstrasse 13";3043;"Uettligen";"Säriswilstrasse 13, Uettligen, Switzerland";"46.9875894 7.3836986";46.9875894;7.3836986
+55;"LANDI Moossee";"Eichenweg 35";3052;"Zollikofen";"Eichenweg 35, Zollikofen, Switzerland";"46.99827759999999 7.463993500000001";46.99827759999999;7.463993500000001
+56;"LANDI Moossee";"Bahnhofstr. 5";3053;"Münchenbuchsee";"Bahnhofstr. 5, Münchenbuchsee, Switzerland";"47.0203231 7.4536064";47.0203231;7.4536064
+57;"LANDI Moossee";"Lyssstrasse 1";3054;"Schüpfen";"Lyssstrasse 1, Schüpfen, Switzerland";"47.0428097 7.381738899999999";47.0428097;7.381738899999999
+58;"LANDI Bolligen Genossenschaft";"Bolligenstrasse 92";3065;"Bolligen";"Bolligenstrasse 92, Bolligen, Switzerland";"46.970285 7.497176199999999";46.970285;7.497176199999999
+59;"LANDI Vechigen";"Bahnhofstrasse 2";3067;"Boll";"Bahnhofstrasse 2, Boll, Switzerland";"47.3677052 8.5402551";47.3677052;8.5402551
+60;"LANDI Aare Genossenschaft";"Rubigenstrasse 80";3076;"Worb";"Rubigenstrasse 80, Worb, Switzerland";"46.9157828 7.5631051";46.9157828;7.5631051
+61;"LANDI Thun Genossenschaft";"Dorfstrasse 30";3088;"Rüeggisberg";"Dorfstrasse 30, Rüeggisberg, Switzerland";"46.8214346 7.4430254";46.8214346;7.4430254
+62;"LANDI Laden Köniz";"Gartenstadtstrasse 7a";3098;"Köniz";"Gartenstadtstrasse 7a, Köniz, Switzerland";"46.9261813 7.4143554";46.9261813;7.4143554
+63;"LANDI Aare Genossenschaft";"Seilereistrasse 20";3114;"Wichtrach";"Seilereistrasse 20, Wichtrach, Switzerland";"46.8452168 7.5685702";46.8452168;7.5685702
+64;"LANDI Aare Genossenschaft";"Aemmenmattstrasse 4";3123;"Belp";"Aemmenmattstrasse 4, Belp, Switzerland";"46.8996264 7.501837200000001";46.8996264;7.501837200000001
+65;"LANDI Thun Genossenschaft";"Bahnhofstrasse 45";3127;"Mühlethurnen";"Bahnhofstrasse 45, Mühlethurnen, Switzerland";"46.81471759999999 7.5134783";46.81471759999999;7.5134783
+66;"LANDI Laden Niederscherli";"Eyboden 8";3145;"Niederscherli";"Eyboden 8, Niederscherli, Switzerland";"46.8866479 7.3892222";46.8866479;7.3892222
+67;"LANDI Laden Schwarzenburg";"Milchgässli 7";3150;"Schwarzenburg";"Milchgässli 7, Schwarzenburg, Switzerland";"46.8167129 7.3398357";46.8167129;7.3398357
+68;"LANDI Bern-West";"Freiburgstrasse 888";3174;"Thörishaus";"Freiburgstrasse 888, Thörishaus, Switzerland";"46.902703 7.3560421";46.902703;7.3560421
+69;"LANDI UWA Ueberstorf Genossenschaft";"Bernstrasse 34B";3175;"Flamatt";"Bernstrasse 34B, Flamatt, Switzerland";"46.8897341 7.3183652";46.8897341;7.3183652
+70;"LANDI Bern-West";"Laupenstrasse 12";3176;"Neuenegg";"Laupenstrasse 12, Neuenegg, Switzerland";"46.8947894 7.297737";46.8947894;7.297737
+71;"LANDI Bern-West";"Murtenstrasse 28";3177;"Laupen";"Murtenstrasse 28, Laupen, Switzerland";"46.90738899999999 7.2359099";46.90738899999999;7.2359099
+72;"LANDI UWA Ueberstorf Genossenschaft";"Flamattstrasse 10";3182;"Ueberstorf";"Flamattstrasse 10, Ueberstorf, Switzerland";"46.8658709 7.310155900000001";46.8658709;7.310155900000001
+73;"LANDI Gurmels";"Hauptstrasse 120";3212;"Gurmels";"Hauptstrasse 120, Gurmels, Switzerland";"46.8939528 7.172876800000001";46.8939528;7.172876800000001
+74;"LANDI Seeland AG";"Brüggfeld 1";3216;"Ried bei Kerzers";"Brüggfeld 1, Ried bei Kerzers, Switzerland";"46.9668463 7.189248";46.9668463;7.189248
+75;"LANDI Seeland AG";"Rämismatte 1";3232;"Ins";"Rämismatte 1, Ins, Switzerland";"46.99594159999999 7.1074639";46.99594159999999;7.1074639
+76;"LANDI Messen";"Haupstrasse 43";3254;"Messen";"Haupstrasse 43, Messen, Switzerland";"47.0918187 7.4521035";47.0918187;7.4521035
+77;"LANDI Seeland AG";"Chräjeninsel 16";3270;"Aarberg";"Chräjeninsel 16, Aarberg, Switzerland";"47.0517638 7.2814774";47.0517638;7.2814774
+78;"LANDI Seeland AG";"Alte Freiburgstrasse 33";3280;"Murten";"Alte Freiburgstrasse 33, Murten, Switzerland";"46.92362989999999 7.112536899999999";46.92362989999999;7.112536899999999
+79;"LANDI Büren a. A. und Umgebung";"Schulriederstrasse 3";3293;"Dotzigen";"Schulriederstrasse 3, Dotzigen, Switzerland";"47.1193243 7.336359499999999";47.1193243;7.336359499999999
+80;"LANDI Büren a. A. und Umbebung";"Güterweg 11";3294;"Büren an der Aare";"Güterweg 11, Büren an der Aare, Switzerland";"47.1379052 7.3681927";47.1379052;7.3681927
+81;"LANDI Büren a. A. und Umbebung";"Herrengasse 5";3297;"Leuzigen";"Herrengasse 5, Leuzigen, Switzerland";"47.1744119 7.4619527";47.1744119;7.4619527
+82;"LANDI Moossee";"Bernstrasse 62";3303;"Jegenstorf";"Bernstrasse 62, Jegenstorf, Switzerland";"47.0433793 7.503539099999999";47.0433793;7.503539099999999
+83;"LANDI Moossee";"Oberburgstrasse 1";3326;"Krauchthal";"Oberburgstrasse 1, Krauchthal, Switzerland";"47.0107903 7.5668529";47.0107903;7.5668529
+84;"LANDI Herzogenbuchsee";"Byfangstrasse 2";3360;"Herzogenbuchsee";"Byfangstrasse 2, Herzogenbuchsee, Switzerland";"47.1951759 7.6975194";47.1951759;7.6975194
+85;"LANDI KoWy";"Sägegasse 1";3400;"Burgdorf";"Sägegasse 1, Burgdorf, Switzerland";"47.0578594 7.6296546";47.0578594;7.6296546
+86;"LANDI Region Aemme";"Dicki";3415;"Hasle-Rüegsau";"Dicki, Hasle-Rüegsau, Switzerland";"47.0086515 7.655346";47.0086515;7.655346
+87;"LANDI Region Aemme";"Dorfstrasse 7";3418;"Rüegsbach";"Dorfstrasse 7, Rüegsbach, Switzerland";"47.0182296 7.6606271";47.0182296;7.6606271
+88;"LANDI KoWY";"Dorfstrasse 79";3423;"Ersigen";"Dorfstrasse 79, Ersigen, Switzerland";"47.1027017 7.6038216";47.1027017;7.6038216
+89;"LANDI KoWy";"Alchenstorfstrasse 3";3425;"Koppigen";"Alchenstorfstrasse 3, Koppigen, Switzerland";"47.1304435 7.615559800000001";47.1304435;7.615559800000001
+90;"LANDI Landshut";"Bahnhofstrasse 33";3427;"Utzenstorf";"Bahnhofstrasse 33, Utzenstorf, Switzerland";"47.1286969 7.554248899999999";47.1286969;7.554248899999999
+91;"LANDI Region Aemme";"Parkettstrasse 29";3432;"Lützelflüh";"Parkettstrasse 29, Lützelflüh, Switzerland";"47.0039988 7.6852034";47.0039988;7.6852034
+92;"LANDI Region Langnau AG";"Dorfstrasse 47";3436;"Zollbrück";"Dorfstrasse 47, Zollbrück, Switzerland";"46.96662999999999 7.7413037";46.96662999999999;7.7413037
+93;"LANDI Region Aemme";"Wylergasse 1";3455;"Sumiswald";"Wylergasse 1, Sumiswald, Switzerland";"47.0249535 7.739745099999999";47.0249535;7.739745099999999
+94;"LANDI Region Aemme";"Bahnhofstrasse 34";3457;"Wasen";"Bahnhofstrasse 34, Wasen, Switzerland";"47.0439243 7.7904082";47.0439243;7.7904082
+95;"LANDI KoWy";"Tannwaldmoosweg 1";3472;"Wynigen";"Tannwaldmoosweg 1, Wynigen, Switzerland";"47.1035394 7.660703900000001";47.1035394;7.660703900000001
+96;"LANDI Riedtwil Genossenschaft";"Hauptstrasse 43";3475;"Riedtwil";"Hauptstrasse 43, Riedtwil, Switzerland";"47.14118029999999 7.694971700000001";47.14118029999999;7.694971700000001
+97;"LANDI Aare Genossenschaft";"Bahnhofstrasse 17";3506;"Grosshöchstetten";"Bahnhofstrasse 17, Grosshöchstetten, Switzerland";"46.90373719999999 7.6347048";46.90373719999999;7.6347048
+98;"LANDI Aare Genossenschaft";"Hohle 3";3507;"Biglen";"Hohle 3, Biglen, Switzerland";"46.9262925 7.626405999999999";46.9262925;7.626405999999999
+99;"LANDI Aare Genossenschaft";"Bahnhofstrasse 17";3532;"Zäziwil";"Bahnhofstrasse 17, Zäziwil, Switzerland";"46.9010383 7.663944499999999";46.9010383;7.663944499999999
+100;"Region Langnau AG";"Dorfstrasse 73";3534;"Signau";"Dorfstrasse 73, Signau, Switzerland";"46.9182145 7.7228566";46.9182145;7.7228566
+101;"LANDI Röthenbach - Eggiwil";"Beisatzgasse 480 A";3537;"Eggiwil";"Beisatzgasse 480 A, Eggiwil, Switzerland";"46.8758418 7.797604899999999";46.8758418;7.797604899999999
+102;"LANDI Röthenbach-Eggiwil";"Dorf";3538;"Röthenbach i. E.";"Dorf, Röthenbach i. E., Switzerland";"46.8542235 7.741505";46.8542235;7.741505
+103;"LANDI Wiggen und Umgebung";"Bahnhofstrasse 4";3555;"Trubschachen";"Bahnhofstrasse 4, Trubschachen, Switzerland";"46.922804 7.847148";46.922804;7.847148
+104;"LANDI Thun Genossenschaft";"Glockentalstrasse 50";3612;"Steffisburg";"Glockentalstrasse 50, Steffisburg, Switzerland";"46.772674 7.630849199999999";46.772674;7.630849199999999
+105;"LANDI Niesen Genossenschaft";"Blumensteinstrasse 28";3634;"Thierachern";"Blumensteinstrasse 28, Thierachern, Switzerland";"46.751843 7.566254099999999";46.751843;7.566254099999999
+106;"LANDI Thun Genossenschaft";"Bahnhofstrasse 16";3661;"Uetendorf";"Bahnhofstrasse 16, Uetendorf, Switzerland";"46.7744071 7.574711499999999";46.7744071;7.574711499999999
+107;"LANDI Herbligen - Brenzikofen";"Stationsstrasse 3";3671;"Brenzikofen";"Stationsstrasse 3, Brenzikofen, Switzerland";"46.8170927 7.612897299999998";46.8170927;7.612897299999998
+108;"LANDI Thun Genossenschaft";"Dorfstrasse 23";3673;"Linden";"Dorfstrasse 23, Linden, Switzerland";"46.84695050000001 7.6771889";46.84695050000001;7.6771889
+109;"LANDI Niesen Genossenschaft";"Faulenbachweg 70";3700;"Spiez";"Faulenbachweg 70, Spiez, Switzerland";"46.68153119999999 7.6708509";46.68153119999999;7.6708509
+110;"LANDI Reichenbach-Kandertal Genossenschaft";"Hauptstrasse 36";3713;"Reichenbach i. K.";"Hauptstrasse 36, Reichenbach i. K., Switzerland";"46.7144735 8.1827974";46.7144735;8.1827974
+111;"LANDI Jungfrau AG";"Christoph Kunz-Olympiastrasse 18";3714;"Frutigen";"Christoph Kunz-Olympiastrasse 18, Frutigen, Switzerland";"46.5895042 7.656309800000001";46.5895042;7.656309800000001
+112;"LANDI Diemtigtal Genossenschaft";"Unterdorfweg 7";3753;"Oey";"Unterdorfweg 7, Oey, Switzerland";"46.6602256 7.5783393";46.6602256;7.5783393
+113;"LANDI Simmental-Saanenland";"Simmentalstrasse";3763;"Därstetten";"Simmentalstrasse, Därstetten, Switzerland";"46.6588627 7.494302299999999";46.6588627;7.494302299999999
+114;"LANDI Simmental-Saanenland";"Schulstrasse 1";3770;"Zweisimmen";"Schulstrasse 1, Zweisimmen, Switzerland";"46.5514346 7.3757129";46.5514346;7.3757129
+115;"LANDI Simmental-Saanenland";"Thunstrasse 29H";3770;"Zweisimmen";"Thunstrasse 29H, Zweisimmen, Switzerland";"46.559161 7.374282000000001";46.559161;7.374282000000001
+116;"LANDI Simmental-Saanenland";"Lenkstrasse 74";3775;"Lenk im Simmental";"Lenkstrasse 74, Lenk im Simmental, Switzerland";"46.4665431 7.439708399999999";46.4665431;7.439708399999999
+117;"LANDI Simmental-Saanenland";"Güterstrasse 10";3780;"Gstaad";"Güterstrasse 10, Gstaad, Switzerland";"46.4760765 7.282946700000001";46.4760765;7.282946700000001
+118;"LANDI Simmental-Saanenland";"Mattenstrasse 120";3783;"Grund bei Gstaad";"Mattenstrasse 120, Grund bei Gstaad, Switzerland";"46.44716 7.27312";46.44716;7.27312
+119;"LANDI Jungfrau AG";"Untere Bönigstrasse 50";3800;"Interlaken";"Untere Bönigstrasse 50, Interlaken, Switzerland";"46.6888587 7.879069200000001";46.6888587;7.879069200000001
+120;"LANDI Grindelwald Genossenschaft";"Wärgitalstrasse 4";3818;"Grindelwald";"Wärgitalstrasse 4, Grindelwald, Switzerland";"46.6184804 8.0291325";46.6184804;8.0291325
+121;"LANDI Jungfrau AG";"Stägmattgasse 1";3855;"Brienz";"Stägmattgasse 1, Brienz, Switzerland";"46.7541541 8.0316899";46.7541541;8.0316899
+122;"LANDI Jungfrau AG";"Liechtenenstrasse 18";3860;"Meiringen";"Liechtenenstrasse 18, Meiringen, Switzerland";"46.7283615 8.172307199999999";46.7283615;8.172307199999999
+123;"LANDI Oberwallis AG";"Überlandstrasse 70";3902;"Brig-Glis";"Überlandstrasse 70, Brig-Glis, Switzerland";"46.3156602 7.9787721";46.3156602;7.9787721
+124;"LANDI Reba AG";"Nordring 2";4147;"Aesch BL";"Nordring 2, Aesch BL, Switzerland";"47.4797521 7.5907386";47.4797521;7.5907386
+125;"LANDI Reba AG";"Güterstrasse 33";4242;"Laufen";"Güterstrasse 33, Laufen, Switzerland";"47.41498869999999 7.502036999999999";47.41498869999999;7.502036999999999
+126;"LANDI FRILA";"Untere Rütenenstrasse 1";4310;"Rheinfelden";"Untere Rütenenstrasse 1, Rheinfelden, Switzerland";"47.5635167 7.827471599999999";47.5635167;7.827471599999999
+127;"Milch- und Landwirtschaftliche Genossenschaft Liestal";"Zeughausplatz 16-20";4410;"Liestal";"Zeughausplatz 16-20, Liestal, Switzerland";"47.4850939 7.7350197";47.4850939;7.7350197
+128;"LANDI Reba AG";"Grüngenstrasse 3";4416;"Bubendorf";"Grüngenstrasse 3, Bubendorf, Switzerland";"47.4564262 7.7440981";47.4564262;7.7440981
+129;"LANDI Oberdorf";"Hintere Gasse 6";4436;"Oberdorf BL";"Hintere Gasse 6, Oberdorf BL, Switzerland";"47.39497799999999 7.7504229";47.39497799999999;7.7504229
+130;"LANDI Tenniken";"Hofmattweg 16";4456;"Tenniken";"Hofmattweg 16, Tenniken, Switzerland";"47.43713340000001 7.8110216";47.43713340000001;7.8110216
+131;"LANDI Reba AG";"Sissacherstrasse 40";4460;"Gelterkinden";"Sissacherstrasse 40, Gelterkinden, Switzerland";"47.4645394 7.843145700000001";47.4645394;7.843145700000001
+132;"LANDI Subingen";"Gewerbestrasse 1";4553;"Subingen";"Gewerbestrasse 1, Subingen, Switzerland";"47.195049 7.6088919";47.195049;7.6088919
+133;"LANDI Bucheggberg";"beim Bahnhof";4573;"Lohn-Ammannsegg";"beim Bahnhof, Lohn-Ammannsegg, Switzerland";"47.1630037 7.526726099999999";47.1630037;7.526726099999999
+134;"Landi BippGäuThal AG";"Dorfstrasse 5";4612;"Wangen bei Olten";"Dorfstrasse 5, Wangen bei Olten, Switzerland";"47.3424627 7.8661678";47.3424627;7.8661678
+135;"LANDI Fulenbach";"Dorfstrasse 23";4629;"Fulenbach";"Dorfstrasse 23, Fulenbach, Switzerland";"47.2743613 7.832465900000001";47.2743613;7.832465900000001
+136;"LANDI Aarau-West AG";"Burmattstrasse 1";4652;"Winznau";"Burmattstrasse 1, Winznau, Switzerland";"47.3641513 7.9294746";47.3641513;7.9294746
+137;"LANDI Aarau-West AG";"Schachenstrasse 10";4658;"Däniken";"Schachenstrasse 10, Däniken, Switzerland";"47.3572731 7.9796619";47.3572731;7.9796619
+138;"LANDI BippGäuThal AG";"Äussere Klus 39";4702;"Oensingen";"Äussere Klus 39, Oensingen, Switzerland";"47.2965615 7.7041594";47.2965615;7.7041594
+139;"LANDI Zofingen";"Kornweg 3";4800;"Zofingen";"Kornweg 3, Zofingen, Switzerland";"47.2820413 7.9393003";47.2820413;7.9393003
+140;"LANDI Melchnau-Bützberg";"Dorfstrasse 34";4917;"Melchnau";"Dorfstrasse 34, Melchnau, Switzerland";"47.1869415 7.848425199999999";47.1869415;7.848425199999999
+141;"LANDI Melchnau Bützberg";"Zürichstrasse 32";4922;"Bützberg";"Zürichstrasse 32, Bützberg, Switzerland";"47.2166691 7.753879899999998";47.2166691;7.753879899999998
+142;"LANDI Eriswil Genossenschaft";"Bahnhofsplatz 6";4952;"Eriswil";"Bahnhofsplatz 6, Eriswil, Switzerland";"47.0806401 7.850668700000001";47.0806401;7.850668700000001
+143;"LANDI Region Huttwil AG";"Bernstrasse 62";4953;"Schwarzenbach";"Bernstrasse 62, Schwarzenbach, Switzerland";"47.10965789999999 7.830747399999999";47.10965789999999;7.830747399999999
+144;"LANDI Oberes Fricktal";"Oeligasse 94";5063;"Wölflinswil";"Oeligasse 94, Wölflinswil, Switzerland";"47.4610461 7.998044999999999";47.4610461;7.998044999999999
+145;"LANDI FRILA";"Gerenweg 4";5073;"Gipf-Oberfrick";"Gerenweg 4, Gipf-Oberfrick, Switzerland";"47.5013285 8.0086345";47.5013285;8.0086345
+146;"LANDI FRILA";"Laufenburgerstrasse 6";5074;"Eiken";"Laufenburgerstrasse 6, Eiken, Switzerland";"47.5335835 7.9883204";47.5335835;7.9883204
+147;"LANDI Klingnau";"Zelgli 6";5313;"Klingnau";"Zelgli 6, Klingnau, Switzerland";"47.5946525 8.236700599999999";47.5946525;8.236700599999999
+148;"LANDI Wasserschloss";"Hornblick 3";5412;"Gebenstorf";"Hornblick 3, Gebenstorf, Switzerland";"47.489174 8.2430905";47.489174;8.2430905
+149;"LANDI Schneisingen";"Zimmereiweg 2";5425;"Schneisingen";"Zimmereiweg 2, Schneisingen, Switzerland";"47.51788519999999 8.3667903";47.51788519999999;8.3667903
+150;"LANDI Furt- und Limmattal Genossenschaft";"Landstrasse 40";5436;"Würenlos";"Landstrasse 40, Würenlos, Switzerland";"47.44551509999999 8.360469";47.44551509999999;8.360469
+151;"LANDI Freiamt";"Bergstrasse 6";5452;"Oberrohrdorf";"Bergstrasse 6, Oberrohrdorf, Switzerland";"47.418544 8.3177977";47.418544;8.3177977
+152;"LANDI Lenzburg";"Sägestrasse 10";5600;"Lenzburg";"Sägestrasse 10, Lenzburg, Switzerland";"47.39277149999999 8.1797117";47.39277149999999;8.1797117
+153;"LANDI Freiamt";"Luzernstrasse 65";5630;"Muri AG";"Luzernstrasse 65, Muri AG, Switzerland";"47.2544179 8.3764769";47.2544179;8.3764769
+154;"LANDI Sins";"Bahnhofstrasse 32";5643;"Sins";"Bahnhofstrasse 32, Sins, Switzerland";"47.1870237 8.3975042";47.1870237;8.3975042
+155;"LANDI Unteres Seetal";"Dürrenäscherweg 413";5705;"Hallwil";"Dürrenäscherweg 413, Hallwil, Switzerland";"47.3309053 8.1732043";47.3309053;8.1732043
+156;"LANDI Hallwilersee";"Poststrasse 18";5707;"Seengen";"Poststrasse 18, Seengen, Switzerland";"47.3250288 8.206605099999999";47.3250288;8.206605099999999
+157;"LANDI Unteres Seetal";"Kirchenfeldstrasse 10";5722;"Gränichen";"Kirchenfeldstrasse 10, Gränichen, Switzerland";"47.3551384 8.0995401";47.3551384;8.0995401
+158;"LANDI Hallwilersee";"Mattenstrasse 10";5734;"Reinach AG";"Mattenstrasse 10, Reinach AG, Switzerland";"47.2644526 8.1739024";47.2644526;8.1739024
+159;"LANDI Aarau-West AG";"Hardfeld 1";5742;"Kölliken";"Hardfeld 1, Kölliken, Switzerland";"47.33169119999999 8.0373526";47.33169119999999;8.0373526
+160;"LANDI Sursee";"Guglern 34";6018;"Buttisholz";"Guglern 34, Buttisholz, Switzerland";"47.1073451 8.0847293";47.1073451;8.0847293
+161;"LANDI Sempach-Emmen";"Bahnhofstrasse 15";6020;"Emmenbrücke";"Bahnhofstrasse 15, Emmenbrücke, Switzerland";"47.0712801 8.2809606";47.0712801;8.2809606
+162;"LANDI Sempach-Emmen";"Stationsstrasse 82";6023;"Rothenburg";"Stationsstrasse 82, Rothenburg, Switzerland";"47.0927032 8.2534732";47.0927032;8.2534732
+163;"LANDI Buchrain Genossenschaft";"Schiltwaldstrasse 2";6033;"Buchrain";"Schiltwaldstrasse 2, Buchrain, Switzerland";"47.1058856 8.343066799999999";47.1058856;8.343066799999999
+164;"LANDI Pilatus AG";"Technikumstrasse 1";6048;"Horw";"Technikumstrasse 1, Horw, Switzerland";"47.0175786 8.303713799999999";47.0175786;8.303713799999999
+165;"LANDI Unterwalden AG";"Kernserstrasse 1";6060;"Sarnen";"Kernserstrasse 1, Sarnen, Switzerland";"46.8959365 8.248026";46.8959365;8.248026
+166;"LANDI Pilatus AG";"Mettlenmatte 1";6102;"Malters";"Mettlenmatte 1, Malters, Switzerland";"47.0400382 8.1800117";47.0400382;8.1800117
+167;"LANDI Pilatus AG";"Entlebucherstrasse 81";6110;"Wolhusen";"Entlebucherstrasse 81, Wolhusen, Switzerland";"47.0516528 8.0681576";47.0516528;8.0681576
+168;"LANDI Luzern West";"Ettiswilerstrasse 30";6130;"Willisau";"Ettiswilerstrasse 30, Willisau, Switzerland";"47.1269049 7.997980300000001";47.1269049;7.997980300000001
+169;"LANDI Luzern West";"Bahnhofstrasse 3";6144;"Zell";"Bahnhofstrasse 3, Zell, Switzerland";"47.1367504 7.9267509";47.1367504;7.9267509
+170;"LANDI Wiggen und Umgebung Genossenschaft";"Blumattstrasse 1";6162;"Entlebuch";"Blumattstrasse 1, Entlebuch, Switzerland";"46.99310380000001 8.0609716";46.99310380000001;8.0609716
+171;"LANDI Schüpfheim-Flühli";"Bahnhofstrasse 15";6170;"Schüpfheim";"Bahnhofstrasse 15, Schüpfheim, Switzerland";"46.9496784 8.0145818";46.9496784;8.0145818
+172;"LANDI Wiggen und Umgebung Genossenschaft";"Bahnhofstrasse 8";6182;"Escholzmatt";"Bahnhofstrasse 8, Escholzmatt, Switzerland";"46.9141635 7.936249699999999";46.9141635;7.936249699999999
+173;"LANDI Wiggen und Umgebung";"Unterwiggen 2";6192;"Wiggen";"Unterwiggen 2, Wiggen, Switzerland";"46.9007437 7.9004368";46.9007437;7.9004368
+174;"LANDI Wiggen und Umgebung";"Fischbach";6197;"Schangnau";"Fischbach, Schangnau, Switzerland";"46.8268859 7.8655326";46.8268859;7.8655326
+175;"LANDI Sempach-Emmen";"Bahnhofstrasse 27";6203;"Sempach Station";"Bahnhofstrasse 27, Sempach Station, Switzerland";"47.1158848 8.2003103";47.1158848;8.2003103
+176;"LANDI Nottwil - Buttisholz";"Kantonsstrasse 14";6207;"Nottwil";"Kantonsstrasse 14, Nottwil, Switzerland";"47.13622729999999 8.1358487";47.13622729999999;8.1358487
+177;"LANDI-Markt AG Sursee";"Schellenrain 11";6208;"Oberkirch";"Schellenrain 11, Oberkirch, Switzerland";"47.1630128 8.1045375";47.1630128;8.1045375
+178;"LANDI Beromünster";"Aargauerstrasse 11";6215;"Beromünster";"Aargauerstrasse 11, Beromünster, Switzerland";"47.2084856 8.1907151";47.2084856;8.1907151
+179;"LANDI Triengen";"Kantonsstrasse 4";6234;"Triengen";"Kantonsstrasse 4, Triengen, Switzerland";"47.2278796 8.084102399999999";47.2278796;8.084102399999999
+180;"LANDI Luzern West";"Schürmatt 3";6247;"Schötz";"Schürmatt 3, Schötz, Switzerland";"47.1829069 7.9815571";47.1829069;7.9815571
+181;"LANDI Luzern West";"Dörflimatte 1";6260;"Reiden";"Dörflimatte 1, Reiden, Switzerland";"47.2472798 7.971340799999998";47.2472798;7.971340799999998
+182;"LANDI Oberseetal";"Huwilstrasse 7";6280;"Hochdorf";"Huwilstrasse 7, Hochdorf, Switzerland";"47.1703253 8.2834799";47.1703253;8.2834799
+183;"LANDI Oberseetal";"Mettmenstrasse 5";6288;"Schongau";"Mettmenstrasse 5, Schongau, Switzerland";"47.26776599999999 8.260769699999999";47.26776599999999;8.260769699999999
+184;"LANDI Zugerland";"Oberallmendstrasse 24";6300;"Zug";"Oberallmendstrasse 24, Zug, Switzerland";"47.1825872 8.524531";47.1825872;8.524531
+185;"LANDI Zugerland";"Gewerbestrasse 1";6314;"Unterägeri";"Gewerbestrasse 1, Unterägeri, Switzerland";"47.1351553 8.574502599999999";47.1351553;8.574502599999999
+186;"LANDI Hünenberg";"Chamerstrasse 46";6331;"Hünenberg";"Chamerstrasse 46, Hünenberg, Switzerland";"47.1789888 8.4315488";47.1789888;8.4315488
+187;"LANDI Zugerland";"Poststrasse 3";6343;"Rotkreuz";"Poststrasse 3, Rotkreuz, Switzerland";"47.14185810000001 8.4279722";47.14185810000001;8.4279722
+188;"LANDI Unterwalden AG";"Unter Sagi 2";6362;"Stansstad";"Unter Sagi 2, Stansstad, Switzerland";"46.97380150000001 8.3467425";46.97380150000001;8.3467425
+189;"LANDI Küssnacht AG";"Zugerstrasse 4";6403;"Küssnacht am Rigi";"Zugerstrasse 4, Küssnacht am Rigi, Switzerland";"47.0924497 8.4488956";47.0924497;8.4488956
+190;"LANDI Schwyz";"Steinbislin 9";6423;"Seewen SZ";"Steinbislin 9, Seewen SZ, Switzerland";"47.0334098 8.6288608";47.0334098;8.6288608
+191;"LANDI Uri AG";"Umfahrungsstrasse 24";6467;"Schattdorf";"Umfahrungsstrasse 24, Schattdorf, Switzerland";"46.8574053 8.639215799999999";46.8574053;8.639215799999999
+192;"LANDI Graubünden AG";"Via Isla 55";7151;"Schluein";"Via Isla 55, Schluein, Switzerland";"46.7790135 9.21889";46.7790135;9.21889
+193;"LANDI Graubünden AG";"Löserstrasse 11";7302;"Landquart";"Löserstrasse 11, Landquart, Switzerland";"46.9551855 9.5620237";46.9551855;9.5620237
+194;"LANDI Graubünden AG";"Provisorium an der Werkallee 1";7430;"Thusis";"Provisorium an der Werkallee 1, Thusis, Switzerland";"46.703209 9.442178";46.703209;9.442178
+195;"LANDI Furt- und Limmattal Genossenschaft";"Breitestrasse 15";8106;"Adlikon";"Breitestrasse 15, Adlikon, Switzerland";"47.4491686 8.4645785";47.4491686;8.4645785
+196;"LANDI Maur Genossenschaft";"Rellikonstrasse 3";8124;"Maur";"Rellikonstrasse 3, Maur, Switzerland";"47.3399694 8.6707442";47.3399694;8.6707442
+197;"LANDI Schleinikon";"Dorfstrasse 18";8165;"Schleinikon";"Dorfstrasse 18, Schleinikon, Switzerland";"47.4976764 8.395330399999999";47.4976764;8.395330399999999
+198;"LANDI Züri Unterland";"Wehntalerstrasse 38";8181;"Höri";"Wehntalerstrasse 38, Höri, Switzerland";"47.5093997 8.5124411";47.5093997;8.5124411
+199;"LANDI Surb Genossenschaft";"Kaiserstuhlerstrasse 44";8187;"Weiach";"Kaiserstuhlerstrasse 44, Weiach, Switzerland";"47.5620621 8.429205999999999";47.5620621;8.429205999999999
+200;"LANDI Züri Unterland";"Schaffhauserstrasse 41";8193;"Eglisau";"Schaffhauserstrasse 41, Eglisau, Switzerland";"47.5811797 8.5164475";47.5811797;8.5164475
+201;"GVS Landi AG";"Gennersbrunnerstrasse 65";8207;"Schaffhausen";"Gennersbrunnerstrasse 65, Schaffhausen, Switzerland";"47.7165617 8.66522";47.7165617;8.66522
+202;"LANDI Hallau / Oberhallau";"Grüntalstrasse 7";8215;"Hallau";"Grüntalstrasse 7, Hallau, Switzerland";"47.69595169999999 8.4638083";47.69595169999999;8.4638083
+203;"LANDI Wilchingen";"Hauptstrasse 85";8217;"Wilchingen";"Hauptstrasse 85, Wilchingen, Switzerland";"47.6673821 8.4698321";47.6673821;8.4698321
+204;"GVS Landi AG";"Werkstrasse 15";8222;"Beringen";"Werkstrasse 15, Beringen, Switzerland";"47.6940172 8.5714994";47.6940172;8.5714994
+205;"LANDI Schleitheim Genossenschaft";"Randenstrasse";8226;"Schleitheim";"Randenstrasse, Schleitheim, Switzerland";"47.75074 8.49048";47.75074;8.49048
+206;"LANDI Thayngen";"Blumenweg 8";8240;"Thayngen";"Blumenweg 8, Thayngen, Switzerland";"47.72302920000001 8.6616123";47.72302920000001;8.6616123
+207;"LANDI Markt Diessenhofen";"Basadingerstrasse 50a";8253;"Diessenhofen";"Basadingerstrasse 50a, Diessenhofen, Switzerland";"47.681035 8.749684";47.681035;8.749684
+208;"LANDI Untersee und Rhy";"Hauptstrasse 15";8264;"Eschenz";"Hauptstrasse 15, Eschenz, Switzerland";"47.6445312 8.9131774";47.6445312;8.9131774
+209;"LANDI Mittelthurgau";"Bahnhofstrasse 10";8272;"Ermatingen";"Bahnhofstrasse 10, Ermatingen, Switzerland";"47.6693976 9.0859553";47.6693976;9.0859553
+210;"LANDI Markt AG Kreuzlingen";"Tägerwilerstrasse 6";8280;"Kreuzlingen";"Tägerwilerstrasse 6, Kreuzlingen, Switzerland";"47.6556016 9.163186099999999";47.6556016;9.163186099999999
+211;"LG Kloten / Landwirtschaftliche Genossenschaft Kloten";"Dorfstrasse 59";8302;"Kloten";"Dorfstrasse 59, Kloten, Switzerland";"47.4521403 8.588957599999999";47.4521403;8.588957599999999
+212;"LANDI Zola AG";"Usterstrasse 27";8308;"Illnau";"Usterstrasse 27, Illnau, Switzerland";"47.407145 8.7236567";47.407145;8.7236567
+213;"LANDI Züri Unterland";"Eigentalstrasse 51";8309;"Nürensdorf";"Eigentalstrasse 51, Nürensdorf, Switzerland";"47.453384 8.6353698";47.453384;8.6353698
+214;"LANDI Zola AG";"Kempttalstrasse 90";8330;"Pfäffikon ZH";"Kempttalstrasse 90, Pfäffikon ZH, Switzerland";"47.3710082 8.7765714";47.3710082;8.7765714
+215;"LANDI Bachtel Genossenschaft";"Adetswilerstrasse 16a";8344;"Bäretswil";"Adetswilerstrasse 16a, Bäretswil, Switzerland";"47.3379175 8.8543836";47.3379175;8.8543836
+216;"LANDI Eulachtal Genossenschaft";"St. Gallerstrasse 6";8352;"Elsau";"St. Gallerstrasse 6, Elsau, Switzerland";"47.50010570000001 8.786029899999999";47.50010570000001;8.786029899999999
+217;"LANDI Tannzapfenland Genossenschaft";"Tanneggerstrasse 4";8374;"Dussnang";"Tanneggerstrasse 4, Dussnang, Switzerland";"47.4306645 8.9563386";47.4306645;8.9563386
+218;"LANDI Neftenbach AG";"Zürichstrasse 44";8413;"Neftenbach";"Zürichstrasse 44, Neftenbach, Switzerland";"47.5217638 8.6575743";47.5217638;8.6575743
+219;"LANDI Züri Unterland";"Lagerhausweg 4";8424;"Embrach";"Lagerhausweg 4, Embrach, Switzerland";"47.5008269 8.597492299999999";47.5008269;8.597492299999999
+220;"LANDI Buchberg-Rüdlingen";"Winkelweg 4";8454;"Buchberg";"Winkelweg 4, Buchberg, Switzerland";"47.5731725 8.560295800000002";47.5731725;8.560295800000002
+221;"LANDI Weinland Genossenschaft";"Güeterstrass 3";8460;"Marthalen";"Güeterstrass 3, Marthalen, Switzerland";"47.6348115 8.655002900000001";47.6348115;8.655002900000001
+222;"LANDI Dägerlen u. Umgebung";"Dorfstrasse 12";8471;"Rutschwil-Dägerlen";"Dorfstrasse 12, Rutschwil-Dägerlen, Switzerland";"47.5595937 8.7269867";47.5595937;8.7269867
+223;"LANDI Stammertal Genossenschaft";"Amtacker 2";8476;"Unterstammheim";"Amtacker 2, Unterstammheim, Switzerland";"47.6305076 8.7861859";47.6305076;8.7861859
+224;"LANDI Wisligzäller Genossenschaft";"Dorfstrasse 9";8484;"Weisslingen";"Dorfstrasse 9, Weisslingen, Switzerland";"47.4300084 8.7644586";47.4300084;8.7644586
+225;"LANDI Wila-Turbenthal";"St. Gallerstrasse 18";8488;"Turbenthal";"St. Gallerstrasse 18, Turbenthal, Switzerland";"47.4341492 8.8530149";47.4341492;8.8530149
+226;"LANDI Seerücken Genossenschaft";"Hauptstrasse 21";8507;"Hörhausen";"Hauptstrasse 21, Hörhausen, Switzerland";"47.6362396 8.973404";47.6362396;8.973404
+227;"LANDI Thurland Genossenschaft";"Schaffhauserstrasse 5";8524;"Uesslingen";"Schaffhauserstrasse 5, Uesslingen, Switzerland";"47.5796087 8.833312";47.5796087;8.833312
+228;"LANDI Hüttwilen und Umgebung";"im Winkel 4";8536;"Hüttwilen";"im Winkel 4, Hüttwilen, Switzerland";"47.6078129 8.8691594";47.6078129;8.8691594
+229;"LANDI Eulachtal Genossenschaft";"Spycherweg 5";8542;"Wiesendangen";"Spycherweg 5, Wiesendangen, Switzerland";"47.52074169999999 8.7909606";47.52074169999999;8.7909606
+230;"LANDI Weinland Genossenschaft";"Grüterstrasse 2";8545;"Rickenbach";"Grüterstrasse 2, Rickenbach, Switzerland";"47.5524279 8.7945092";47.5524279;8.7945092
+231;"LANDI Thurland Genossenschaft";"Tegelbachstrasse 4";8546;"Islikon";"Tegelbachstrasse 4, Islikon, Switzerland";"47.54614249999999 8.8419238";47.54614249999999;8.8419238
+232;"LANDI Thurland Genossenschaft";"Hauptstrasse 36";8552;"Felben";"Hauptstrasse 36, Felben, Switzerland";"47.5959835 8.9555844";47.5959835;8.9555844
+233;"LANDI Mittelthurgau";"Dorfstrasse 18";8560;"Märstetten";"Dorfstrasse 18, Märstetten, Switzerland";"47.5918815 9.068893899999999";47.5918815;9.068893899999999
+234;"LANDI Mittelthurgau";"Weiherhüslistrasse 2";8564;"Sonterswil";"Weiherhüslistrasse 2, Sonterswil, Switzerland";"47.6206986 9.078189199999999";47.6206986;9.078189199999999
+235;"LANDI Mittelthurgau";"Oberfeldenstrasse 1";8570;"Weinfelden";"Oberfeldenstrasse 1, Weinfelden, Switzerland";"47.560204 9.1318664";47.560204;9.1318664
+236;"LANDI Berg Genossenschaft";"Leberenstrasse 1";8572;"Berg TG";"Leberenstrasse 1, Berg TG, Switzerland";"47.5791403 9.1658131";47.5791403;9.1658131
+237;"LANDI Kemmental Genossenschaft";"Alterswilerstrasse 6";8573;"Siegershausen";"Alterswilerstrasse 6, Siegershausen, Switzerland";"47.6104687 9.1674922";47.6104687;9.1674922
+238;"LANDI Markt Aachtal AG";"Schrofenstrasse 20";8580;"Amriswil";"Schrofenstrasse 20, Amriswil, Switzerland";"47.54848 9.27463";47.54848;9.27463
+239;"LANDI Mittelthurgau";"Hauptstrasse 1";8584;"Leimbach";"Hauptstrasse 1, Leimbach, Switzerland";"47.2896076 8.144344499999999";47.2896076;8.144344499999999
+240;"LANDI Markt Altnau";"Wuhrwiesenstrasse 7";8595;"Altnau";"Wuhrwiesenstrasse 7, Altnau, Switzerland";"47.6117074 9.260258799999999";47.6117074;9.260258799999999
+241;"LANDI Zola AG";"Tolackerstrasse 30";8604;"Hegnau-Volketswil";"Tolackerstrasse 30, Hegnau-Volketswil, Switzerland";"47.3919384 8.675137800000002";47.3919384;8.675137800000002
+242;"LANDI Zola AG";"Mettlenbachstrasse 11";8617;"Mönchaltorf";"Mettlenbachstrasse 11, Mönchaltorf, Switzerland";"47.3025521 8.7211688";47.3025521;8.7211688
+243;"LANDI Wetzikon-Seegräben Genossenschaft";"Motorenstrasse 87";8620;"Wetzikon";"Motorenstrasse 87, Wetzikon, Switzerland";"47.3319383 8.794533399999999";47.3319383;8.794533399999999
+244;"LANDI Hombrechtikon Genossenschaft";"Rütistrasse 9";8634;"Hombrechtikon";"Rütistrasse 9, Hombrechtikon, Switzerland";"47.251846 8.7677099";47.251846;8.7677099
+245;"LANDI Bachtel Genossenschaft";"Kreuzstrasse 10";8635;"Dürnten";"Kreuzstrasse 10, Dürnten, Switzerland";"47.2750181 8.8257048";47.2750181;8.8257048
+246;"LANDI Bachtel Genossenschaft";"Bahnhofstrasse 42";8636;"Wald";"Bahnhofstrasse 42, Wald, Switzerland";"47.2729526 8.9134937";47.2729526;8.9134937
+247;"LANDI Goldingen";"Laupenstrasse 2";8638;"Goldingen";"Laupenstrasse 2, Goldingen, Switzerland";"47.2642566 8.9602382";47.2642566;8.9602382
+248;"LANDI mittlerer Zürisee Genossenschaft";"Gruebstrasse 93";8706;"Meilen";"Gruebstrasse 93, Meilen, Switzerland";"47.2689491 8.6630661";47.2689491;8.6630661
+249;"LANDI Stäfa-Männedorf";"Laubisrütistrasse 40";8712;"Stäfa";"Laubisrütistrasse 40, Stäfa, Switzerland";"47.2384041 8.7460183";47.2384041;8.7460183
+250;"LANDI Linth Genossenschaft";"Landistrasse 2";8718;"Schänis";"Landistrasse 2, Schänis, Switzerland";"47.1744278 9.054143999999999";47.1744278;9.054143999999999
+251;"LANDI Linth Genossenschaft";"Schulhausstrasse 21";8722;"Kaltbrunn";"Schulhausstrasse 21, Kaltbrunn, Switzerland";"47.2114766 9.0284892";47.2114766;9.0284892
+252;"LANDI See AG";"Tunnelstrasse 2";8732;"Neuhaus";"Tunnelstrasse 2, Neuhaus, Switzerland";"47.237905 8.950819";47.237905;8.950819
+253;"Landi Glarnerland AG";"Hauptstrasse 95";8756;"Mitlödi";"Hauptstrasse 95, Mitlödi, Switzerland";"47.01701740000001 9.0812694";47.01701740000001;9.0812694
+254;"LANDI Zimmerberg";"Industriestrasse 15";8820;"Wädenswil";"Industriestrasse 15, Wädenswil, Switzerland";"47.2361 8.6370778";47.2361;8.6370778
+255;"LANDI Einsiedeln AG";"Alpstrasse 4";8840;"Einsiedeln";"Alpstrasse 4, Einsiedeln, Switzerland";"47.1360435 8.7458253";47.1360435;8.7458253
+256;"BV Landi March Genossenschaft";"Bahnhofstrasse 65";8854;"Siebnen";"Bahnhofstrasse 65, Siebnen, Switzerland";"47.1825797 8.8991516";47.1825797;8.8991516
+257;"LANDI Sarganserland AG";"Lochrietstrasse 22";8890;"Flums";"Lochrietstrasse 22, Flums, Switzerland";"47.0965794 9.3540726";47.0965794;9.3540726
+258;"LANDI Bonstetten";"Burgwies 1-3";8906;"Bonstetten";"Burgwies 1-3, Bonstetten, Switzerland";"47.3152085 8.4683388";47.3152085;8.4683388
+259;"Landimärt";"Muristrasse 2";8912;"Obfelden";"Muristrasse 2, Obfelden, Switzerland";"47.2702383 8.4307187";47.2702383;8.4307187
+260;"LANDI Albis";"Untere Bahnhofstrasse 20";8932;"Mettmenstetten";"Untere Bahnhofstrasse 20, Mettmenstetten, Switzerland";"47.245392 8.4572839";47.245392;8.4572839
+261;"LANDI Furt- und Limmattal Genossenschaft";"Schöneggstrasse 47";8953;"Dietikon";"Schöneggstrasse 47, Dietikon, Switzerland";"47.4002458 8.4079549";47.4002458;8.4079549
+262;"LANDI Freiamt";"Allmend 5";8967;"Widen";"Allmend 5, Widen, Switzerland";"47.36805270000001 8.3655713";47.36805270000001;8.3655713
+263;"LANDI Appenzell AG";"Mettlenstrasse 10";9050;"Appenzell";"Mettlenstrasse 10, Appenzell, Switzerland";"47.334959 9.4046246";47.334959;9.4046246
+264;"LANDI Säntis AG";"Landhausstrasse 6";9053;"Teufen";"Landhausstrasse 6, Teufen, Switzerland";"47.3885938 9.393064";47.3885938;9.393064
+265;"LANDI Säntis AG";"St. Gallerstr. 25";9100;"Herisau";"St. Gallerstr. 25, Herisau, Switzerland";"47.3918084 9.2763089";47.3918084;9.2763089
+266;"LANDI Säntis AG";"Hauptstrasse 10";9105;"Schönengrund";"Hauptstrasse 10, Schönengrund, Switzerland";"47.3277562 9.2216395";47.3277562;9.2216395
+267;"LANDI Säntis AG";"Herisauerstrasse 28";9107;"Urnäsch";"Herisauerstrasse 28, Urnäsch, Switzerland";"47.3196381 9.2868791";47.3196381;9.2868791
+268;"LANDI Fürstenland AG";"Bahnhofstrasse 22";9200;"Gossau";"Bahnhofstrasse 22, Gossau, Switzerland";"47.4144997 9.251659";47.4144997;9.251659
+269;"LANDI Mittelthurgau";"Käsereistr. 2";9217;"Neukirch an der Thur";"Käsereistr. 2, Neukirch an der Thur, Switzerland";"47.5104962 9.1724818";47.5104962;9.1724818
+270;"LANDI Oberthurgau AG";"Ibergstrasse 26";9220;"Bischofszell";"Ibergstrasse 26, Bischofszell, Switzerland";"47.5017953 9.2385659";47.5017953;9.2385659
+271;"LANDI Thur AG";"Niederuzwilerstrasse";9240;"Niederglatt SG";"Niederuzwilerstrasse, Niederglatt SG, Switzerland";"47.4181666 9.167562499999999";47.4181666;9.167562499999999
+272;"LANDI Oberbüren AG";"Sandackerstrasse 24";9245;"Oberbüren";"Sandackerstrasse 24, Oberbüren, Switzerland";"47.4503317 9.1556994";47.4503317;9.1556994
+273;"LANDI Fürstenland AG";"Erlackerstrasse 14";9300;"Wittenbach";"Erlackerstrasse 14, Wittenbach, Switzerland";"47.4596154 9.3854549";47.4596154;9.3854549
+274;"LANDI Oberthurgau AG";"Im Pünt 2 / Steineloh";9320;"Frasnacht";"Im Pünt 2 / Steineloh, Frasnacht, Switzerland";"47.5223337 9.399561799999999";47.5223337;9.399561799999999
+275;"LANDI Goldach-Mörschwil";"St.Gallerstrasse 17";9402;"Mörschwil";"St.Gallerstrasse 17, Mörschwil, Switzerland";"47.46671749999999 9.4211527";47.46671749999999;9.4211527
+276;"LANDI Goldach-Mörschwil";"Sulzstrasse 21";9403;"Goldach";"Sulzstrasse 21, Goldach, Switzerland";"47.4734166 9.468741699999999";47.4734166;9.468741699999999
+277;"LANDI St. Margrethen AG";"Industriestrasse 43";9430;"St. Margrethen";"Industriestrasse 43, St. Margrethen, Switzerland";"47.4478282 9.6498837";47.4478282;9.6498837
+278;"LANDI Oberrheintal Genossenschaft";"Oberrieterstrasse 87";9450;"Altstätten";"Oberrieterstrasse 87, Altstätten, Switzerland";"47.363372 9.5558935";47.363372;9.5558935
+279;"LANDI Buchs AG";"Mühleäulistrasse 1";9470;"Buchs";"Mühleäulistrasse 1, Buchs, Switzerland";"47.1649409 9.4793082";47.1649409;9.4793082
+280;"LANDI Wartau Genossenschaft";"Fährhüttenstr. 9";9477;"Trübbach";"Fährhüttenstr. 9, Trübbach, Switzerland";"47.09181 9.47739";47.09181;9.47739
+281;"LANDI Thur AG";"Churfirstenstrasse 3";9500;"Wil";"Churfirstenstrasse 3, Wil, Switzerland";"47.461935 9.0446773";47.461935;9.0446773
+282;"LANDI Thur AG";"Henauerstrasse";9524;"Zuzwil";"Henauerstrasse, Zuzwil, Switzerland";"47.463724 9.1138332";47.463724;9.1138332
+283;"LANDI Kirchberg";"Hausenstrasse 4";9533;"Kirchberg SG";"Hausenstrasse 4, Kirchberg SG, Switzerland";"47.4111586 9.040859200000002";47.4111586;9.040859200000002
+284;"LANDI Matzingen Genossenschaft";"St. Gallerstrasse 50";9548;"Matzingen";"St. Gallerstrasse 50, Matzingen, Switzerland";"47.5145451 8.9364765";47.5145451;8.9364765
+285;"LANDI Oberthurgau AG";"Hauptstrasse 30";9562;"Märwil";"Hauptstrasse 30, Märwil, Switzerland";"47.5329088 9.0661948";47.5329088;9.0661948
+286;"LANDI Bütschwil AG";"Adlerweg 31";9606;"Bütschwil";"Adlerweg 31, Bütschwil, Switzerland";"47.3618479 9.070199299999999";47.3618479;9.070199299999999
+287;"LANDI Bütschwil AG";"Bütschwilerstrasse 1";9607;"Mosnang";"Bütschwilerstrasse 1, Mosnang, Switzerland";"47.3625598 9.0407818";47.3625598;9.0407818
+288;"LANDI Ganterschwil-Lütisburg";"Toggenburgerstrasse 5";9608;"Ganterschwil";"Toggenburgerstrasse 5, Ganterschwil, Switzerland";"47.3806896 9.0890276";47.3806896;9.0890276
+289;"LANDI Wattwil AG";"Floozstrasse 7";9630;"Wattwil";"Floozstrasse 7, Wattwil, Switzerland";"47.3154408 9.0837945";47.3154408;9.0837945
+290;"LANDI Nesslau Genossenschaft";"Toggenburgerstrasse 40";9652;"Neu St. Johann";"Toggenburgerstrasse 40, Neu St. Johann, Switzerland";"47.232065 9.190840999999999";47.232065;9.190840999999999
+;"06:30 - 18:30";;;;", , Switzerland";"46.818188 8.227511999999999";46.818188;8.227511999999999
+;"07:30 - 11:45";;;;", , Switzerland";"46.818188 8.227511999999999";46.818188;8.227511999999999
+;"08:00 - 12:00";;;;", , Switzerland";"46.818188 8.227511999999999";46.818188;8.227511999999999
+;"08:00 - 18:30";;;;", , Switzerland";"46.818188 8.227511999999999";46.818188;8.227511999999999
+;"08:00 - 19:00";;;;", , Switzerland";"46.818188 8.227511999999999";46.818188;8.227511999999999
+;"09:00 - 18:30";;;;", , Switzerland";"46.818188 8.227511999999999";46.818188;8.227511999999999
+;"13:00 - 18:00";;;;", , Switzerland";"46.818188 8.227511999999999";46.818188;8.227511999999999
+;"13:30 - 17:30";;;;", , Switzerland";"46.818188 8.227511999999999";46.818188;8.227511999999999
+;"13:30 - 18:00";;;;", , Switzerland";"46.818188 8.227511999999999";46.818188;8.227511999999999
+;"13:30 - 18:30";;;;", , Switzerland";"46.818188 8.227511999999999";46.818188;8.227511999999999
