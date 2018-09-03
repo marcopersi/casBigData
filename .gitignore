@@ -4,7 +4,8 @@
 
 ./online/*.csv
 ./data/*.csv
-masterdata/*.csv
+masterdata/ProduktMitLieferantenProduktNr.csv
+masterata/*.zip
 data/*
 online/*.csv
 
