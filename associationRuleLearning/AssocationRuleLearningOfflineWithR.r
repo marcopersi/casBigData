@@ -97,7 +97,7 @@ display(xyz)
 ml_fpgrowth = function(
   x, 
   features_col = "products",
-  support = 0.02,
+  support = 0.002,
   confidence = 0.01
 )
 {
@@ -105,7 +105,6 @@ ml_fpgrowth = function(
   ensure_scalar_double(support)
   ensure_scalar_double(confidence)
   
-  sc = spark_connection(x)
   uid = sparklyr:::random_string("fpgrowth_")
   jobj = invoke_new(sc, "org.apache.spark.ml.fpm.FPGrowth", uid) 
   
@@ -116,7 +115,6 @@ ml_fpgrowth = function(
     invoke("fit", spark_dataframe(x))
 
 ##### extract rules
-
 # The nasty thing is that antecedent (LHS) and consequent (RHS) are lists
 # We can split them and collect them to R
 
@@ -186,6 +184,7 @@ plot_rules(GroceryRules)
 # COMMAND ----------
 
 install.packages("SparkR")
+install.packages("sparklyr")
 install.packages("magrittr")
 
 # COMMAND ----------
