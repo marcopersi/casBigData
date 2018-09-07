@@ -66,20 +66,14 @@ model.transform(products).show()
 # MAGIC %scala
 # MAGIC 
 # MAGIC // association rule learning for OFFLINE with FPGrowth from MLLib
-# MAGIC import org.apache.spark.mllib.fpm.FPGrowth
-# MAGIC import org.apache.spark.rdd.RDD
+# MAGIC import org.apache.spark.ml.fpm.FPGrowth
+# MAGIC import org.apache.spark.ml.fpm.FPGrowthModel
 # MAGIC import org.apache.spark.sql.functions._
 # MAGIC import org.apache.spark.sql._
 # MAGIC import org.apache.spark.mllib.fpm.PrefixSpan
-# MAGIC import org.apache.spark.SparkContext
-# MAGIC import org.apache.spark.api.java.JavaRDD
-# MAGIC import java.lang.String
-# MAGIC import org.apache.spark.api.java.function.FlatMapFunction
-# MAGIC import java.util.Arrays
-# MAGIC import java.util.Iterator
-# MAGIC import org.apache.spark.mllib.linalg.Vectors
 # MAGIC 
-# MAGIC val dfoffline = spark.table("offlinetrx")
+# MAGIC 
+# MAGIC val dfoffline = spark.table("offlinetrxcleaned")
 # MAGIC val products = dfoffline
 # MAGIC   .groupBy("Beleg")
 # MAGIC   .agg(
@@ -89,79 +83,10 @@ model.transform(products).show()
 # MAGIC columnProducts.printSchema()
 # MAGIC columnProducts.show()
 # MAGIC 
-# MAGIC /*
-# MAGIC root
-# MAGIC  |-- items: array (nullable = true)
-# MAGIC  |    |-- element: string (containsNull = true)
-# MAGIC 
-# MAGIC +--------------------+
-# MAGIC |               items|
-# MAGIC +--------------------+
-# MAGIC |[19420.01, 46872.01]|
-# MAGIC |[AEC003.01, AEC00...|
-# MAGIC |  [BT102.01, BET103]|
-# MAGIC */
-# MAGIC 
-# MAGIC // convert the array in one concatenated string
-# MAGIC //val codesAsSingleString = columnProducts.withColumn("items", concat_ws(" ", $"items"))
-# MAGIC 
-# MAGIC val rdd = columnProducts.rdd
-# MAGIC 
-# MAGIC /*
-# MAGIC codesAsSingleString.printSchema()
-# MAGIC codesAsSingleString.show()
-# MAGIC 
-# MAGIC root
-# MAGIC  |-- items: string (nullable = false)
-# MAGIC +--------------------+
-# MAGIC |               items|
-# MAGIC +--------------------+
-# MAGIC |   19420.01 46872.01|
-# MAGIC |AEC003.01 AEC004....|
-# MAGIC |     BT102.01 BET103|
-# MAGIC */
-# MAGIC 
-# MAGIC /*
-# MAGIC val rdd = codesAsSingleString.rdd.map( x => x(0)).collect()
-# MAGIC rdd.foreach(println)
-# MAGIC */
-# MAGIC 
-# MAGIC 
-# MAGIC // val rdd = codesAsSingleString.map{row => row.getAs[Seq[String]]("items").toArray}
-# MAGIC // val rdd = codesAsSingleString.map{x:Row => x.getAs[List](0)}
-# MAGIC 
-# MAGIC /* 
-# MAGIC problem: 
-# MAGIC   found   : org.apache.spark.api.java.JavaRDD[org.apache.spark.sql.Row]
-# MAGIC   required: org.apache.spark.api.java.JavaRDD[Basket]
-# MAGIC */
-# MAGIC 
-# MAGIC val fpg = new FPGrowth().setMinSupport(0.2).setNumPartitions(6)
-# MAGIC val model = fpg.run(rdd)
-# MAGIC 
-# MAGIC 
-# MAGIC /* the prefix span section, prefix span takes an array of arrays
-# MAGIC val prefixSpan = new PrefixSpan()
-# MAGIC   .setMinSupport(0.2)
-# MAGIC   .setMaxPatternLength(5)
-# MAGIC 
-# MAGIC val model = prefixSpan.run(rdd)
-# MAGIC model.freqSequences.collect().foreach { freqSequence =>
-# MAGIC   println(
-# MAGIC     s"${freqSequence.sequence.map(_.mkString("[", ", ", "]")).mkString("[", ", ", "]")}," +
-# MAGIC       s" ${freqSequence.freq}")
-# MAGIC }
-# MAGIC 
-# MAGIC model.freqItemsets.collect().foreach { itemset =>
-# MAGIC   println(s"${itemset.items.mkString("[", ",", "]")},${itemset.freq}")
-# MAGIC }
-# MAGIC 
-# MAGIC val minConfidence = 0.8
-# MAGIC model.generateAssociationRules(minConfidence).collect().foreach { rule =>
-# MAGIC   println(s"${rule.antecedent.mkString("[", ",", "]")}=> " +
-# MAGIC     s"${rule.consequent .mkString("[", ",", "]")},${rule.confidence}")
-# MAGIC }
-# MAGIC */
+# MAGIC val fpg = new FPGrowth().setMinSupport(0.02).setNumPartitions(4).setMinConfidence(0.4)
+# MAGIC val model = fpg.fit(columnProducts)
+# MAGIC model.freqItemsets.show()
+# MAGIC model.associationRules.show()
 
 # COMMAND ----------
 
@@ -202,3 +127,38 @@ model.transform(products).show()
 # MAGIC   println(s"${rule.antecedent.mkString("[", ",", "]")}=> " +
 # MAGIC     s"${rule.consequent .mkString("[", ",", "]")},${rule.confidence}")
 # MAGIC   }
+
+# COMMAND ----------
+
+# MAGIC %scala
+# MAGIC 
+# MAGIC // association rule learning for OFFLINE with FPGrowth from MLLib
+# MAGIC import org.apache.spark.sql.functions._
+# MAGIC import org.apache.spark.sql._
+# MAGIC import org.apache.spark.mllib.fpm.PrefixSpan
+# MAGIC 
+# MAGIC 
+# MAGIC val dfoffline = spark.table("offlinetrxcleaned")
+# MAGIC val products = dfoffline
+# MAGIC   .groupBy("Beleg")
+# MAGIC   .agg(
+# MAGIC     collect_set("Produkt") as "items")
+# MAGIC 
+# MAGIC val columnProducts = products.select("items")
+# MAGIC val rdd = columnProducts.rdd
+# MAGIC 
+# MAGIC // the prefix span section, prefix span takes an array of arrays
+# MAGIC val prefixSpan = new PrefixSpan()
+# MAGIC   .setMinSupport(0.2)
+# MAGIC   .setMaxPatternLength(5)
+# MAGIC 
+# MAGIC val model = prefixSpan.run(rdd)
+# MAGIC model.freqSequences.collect().foreach { freqSequence =>
+# MAGIC   println(
+# MAGIC     s"${freqSequence.sequence.map(_.mkString("[", ", ", "]")).mkString("[", ", ", "]")}," +
+# MAGIC       s" ${freqSequence.freq}")
+# MAGIC }
+
+# COMMAND ----------
+
+
