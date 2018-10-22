@@ -23,11 +23,6 @@ dfOfflineSZ <- read.df("/mnt/landi/offline/Offline_S-Z.csv", source="csv", heade
 
 # COMMAND ----------
 
-dfOfflineAF$Lieferantenprodukt-Nummer <- toString(dfOfflineAF$Lieferantenprodukt-Nummer)
-#dfOfflineAF <- withColumn(dfOfflineAF, "Lieferantenprodukt-Nummer", cast(dfOfflineAF$Lieferantenprodukt-Nummer, "string"))
-
-# COMMAND ----------
-
 printSchema(dfOfflineAF)
 printSchema(dfOfflineGL)
 printSchema(dfOfflineMN)
@@ -97,7 +92,7 @@ display(xyz)
 ml_fpgrowth = function(
   x, 
   features_col = "products",
-  support = 0.002,
+  support = 0.003,
   confidence = 0.01
 )
 {
@@ -145,7 +140,7 @@ ml_fpgrowth_extract_rules = function(FPGmodel, nLHS = 2, nRHS = 1)
 }
 
 #### Plot resulting rules in a networkgraph
-plot_rules = function(rules, LHS = "LHSitem0", RHS = "RHSitem0", cf = 0.2)
+plot_rules = function(rules, LHS = "LHSitem0", RHS = "RHSitem0", cf = 0.02)
 {
   rules = rules %>% filter(confidence > cf)
   nds = unique(
@@ -171,7 +166,7 @@ plot_rules = function(rules, LHS = "LHSitem0", RHS = "RHSitem0", cf = 0.2)
 }
 
 ###### example calls ##########################################################
-FPGmodel = ml_fpgrowth(trx_agg, "products", support = 0.02, confidence = 0.05)
+FPGmodel = ml_fpgrowth(trx_agg, "products", support = 0.002, confidence = 0.005)
 
 GroceryRules =  ml_fpgrowth(
   trx_agg
@@ -216,7 +211,3 @@ aggr = dataframe %>%
   )
 
 display(aggr)
-
-# COMMAND ----------
-
-

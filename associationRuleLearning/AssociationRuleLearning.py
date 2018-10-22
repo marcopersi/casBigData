@@ -17,9 +17,6 @@
 # MAGIC println("Schema of transactions looks like: ")
 # MAGIC dataframe.printSchema()
 # MAGIC 
-# MAGIC println("Content of transactions looks like: ")
-# MAGIC dataframe.show()
-# MAGIC 
 # MAGIC val fpg = new FPGrowth()
 # MAGIC val model = fpg
 # MAGIC   .setMinSupport(0.005)
@@ -27,6 +24,7 @@
 # MAGIC   .run(onlineTrx)
 # MAGIC 
 # MAGIC println("Found the following frequent item sets:")
+# MAGIC 
 # MAGIC model.freqItemsets.collect().foreach { itemset =>
 # MAGIC   println(itemset.items.mkString("[", ",", "]") + ", " + itemset.freq)
 # MAGIC }
@@ -47,15 +45,18 @@ from pyspark.sql import functions as F
 dfoffline = spark.table("offlinetrx")
 
 products = dfoffline.groupby('Beleg').agg(F.collect_set('Produkt').alias('items'))
-#products.show()
-fpGrowth = FPGrowth(itemsCol="items", minSupport=0.2, minConfidence=0.6)
+fpGrowth = FPGrowth(itemsCol="items", minSupport=0.02, minConfidence=0.4)
 model = fpGrowth.fit(products)
 
 # Display frequent itemsets.
-model.freqItemsets.show()
+display(model.freqItemsets)
+
+# COMMAND ----------
 
 # Display generated association rules.
-model.associationRules.show()
+display(model.associationRules)
+
+# COMMAND ----------
 
 # transform examines the input items against all the association rules and summarize the
 # consequents as prediction
@@ -70,8 +71,6 @@ model.transform(products).show()
 # MAGIC import org.apache.spark.ml.fpm.FPGrowthModel
 # MAGIC import org.apache.spark.sql.functions._
 # MAGIC import org.apache.spark.sql._
-# MAGIC import org.apache.spark.mllib.fpm.PrefixSpan
-# MAGIC 
 # MAGIC 
 # MAGIC val dfoffline = spark.table("offlinetrxcleaned")
 # MAGIC val products = dfoffline
@@ -81,22 +80,24 @@ model.transform(products).show()
 # MAGIC 
 # MAGIC val columnProducts = products.select("items")
 # MAGIC columnProducts.printSchema()
-# MAGIC columnProducts.show()
 # MAGIC 
-# MAGIC val fpg = new FPGrowth().setMinSupport(0.02).setNumPartitions(4).setMinConfidence(0.4)
+# MAGIC val fpg = new FPGrowth().setMinSupport(0.02).setNumPartitions(2).setMinConfidence(0.4)
 # MAGIC val model = fpg.fit(columnProducts)
-# MAGIC model.freqItemsets.show()
+# MAGIC 
+# MAGIC model.freqItemsets.collect().show()
+# MAGIC 
+# MAGIC // display(model.freqItemsets)
 # MAGIC model.associationRules.show()
+# MAGIC model.transform(products).show()
 
 # COMMAND ----------
 
 # MAGIC %scala
-# MAGIC 
 # MAGIC import org.apache.spark.SparkContext
 # MAGIC import org.apache.spark.mllib.fpm.FPGrowth
+# MAGIC import org.apache.spark.mllib.fpm.PrefixSpan
 # MAGIC 
-# MAGIC 
-# MAGIC     val transactions = Seq(
+# MAGIC val transactions = Seq(
 # MAGIC       "r z h k p",
 # MAGIC       "z y x w v u t s",
 # MAGIC       "s x o n r",
@@ -104,29 +105,29 @@ model.transform(products).show()
 # MAGIC       "z",
 # MAGIC       "x z y r q t p")
 # MAGIC       .map(_.split(" "))
-# MAGIC     val rdd = sc.parallelize(transactions, 2).cache()
+# MAGIC val rdd = sc.parallelize(transactions, 2).cache()
 # MAGIC 
 # MAGIC val dataframe = rdd.toDF()
 # MAGIC println("Schema of transactions looks like: ")
 # MAGIC dataframe.printSchema()
 # MAGIC dataframe.show()
 # MAGIC 
-# MAGIC     val fpg = new FPGrowth()
-# MAGIC     val model = fpg
+# MAGIC val fpg = new FPGrowth()
+# MAGIC val model = fpg
 # MAGIC       .setMinSupport(0.2)
 # MAGIC       .setNumPartitions(1)
 # MAGIC       .run(rdd)
 # MAGIC 
-# MAGIC     model.freqItemsets.collect().foreach { itemset =>
-# MAGIC         println(itemset.items.mkString("[", ",", "]") + ", " + itemset.freq)
-# MAGIC     }
+# MAGIC model.freqItemsets.collect().foreach { itemset =>
+# MAGIC   println(itemset.items.mkString("[", ",", "]") + ", " + itemset.freq)
+# MAGIC }
 # MAGIC 
-# MAGIC   println("--------------------------------------------------------------------------------")
+# MAGIC println("--------------------------------------------------------------------------------")
 # MAGIC 
-# MAGIC   model.generateAssociationRules(0.4).collect().foreach { rule =>
-# MAGIC   println(s"${rule.antecedent.mkString("[", ",", "]")}=> " +
+# MAGIC model.generateAssociationRules(0.4).collect().foreach { rule =>
+# MAGIC println(s"${rule.antecedent.mkString("[", ",", "]")}=> " +
 # MAGIC     s"${rule.consequent .mkString("[", ",", "]")},${rule.confidence}")
-# MAGIC   }
+# MAGIC }
 
 # COMMAND ----------
 
@@ -152,13 +153,9 @@ model.transform(products).show()
 # MAGIC   .setMinSupport(0.2)
 # MAGIC   .setMaxPatternLength(5)
 # MAGIC 
-# MAGIC val model = prefixSpan.run(rdd)
+# MAGIC val model = prefixSpan.run(columnProducts)
 # MAGIC model.freqSequences.collect().foreach { freqSequence =>
 # MAGIC   println(
 # MAGIC     s"${freqSequence.sequence.map(_.mkString("[", ", ", "]")).mkString("[", ", ", "]")}," +
 # MAGIC       s" ${freqSequence.freq}")
 # MAGIC }
-
-# COMMAND ----------
-
-
