@@ -8,6 +8,6 @@ masterdata/ProduktMitLieferantenProduktNr.csv
 masterata/*.zip
 data/*
 online/*.csv
-
+onlineTransactions.csv
 # Office Temp Files
 ~$*
